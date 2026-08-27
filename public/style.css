@@ -1,0 +1,67 @@
+:root {
+    --champagne: #F7E6CA;
+    --warm-white: #FFF9F0;
+    --powder: #ffe5d9;
+    --oatmeal: #C9C5B1;
+    --pink: #ffcad4;
+    --cherry-blossom: #f4acb7;
+    --dusty: #9d8189;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--warm-white);
+}
+
+.title {
+    font-size: 36px;
+    color: var(--dusty);
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.calculator {
+    display: block;
+    width: 300px;
+    height: 500px;
+    background: var(--cherry-blossom);
+    margin: 20px auto;
+    padding: 5px;
+    border: #fff solid 3px;
+    border-radius: 40px;
+}
+
+#input {
+    box-sizing: border-box;
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+    background: var(--pink);
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    background: var(--powder);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #A2805D;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--champagne);
+    color: var(--dusty);
+}
