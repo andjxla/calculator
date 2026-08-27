@@ -1,6 +1,6 @@
 require "sinatra"
 
-set :port, ENV.fetch("port, 4567")
+set :port, ENV.fetch("PORT, 4567")
 set :bind, "0.0.0.0"
 
 get "/" do
