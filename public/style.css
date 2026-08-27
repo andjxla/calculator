@@ -33,7 +33,9 @@ body {
 
 #input {
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     width: 250px;
     height: 200px;
     margin: 20px auto;
@@ -41,6 +43,9 @@ body {
     border-radius: 20px;
     background: var(--pink);
     text-align: right;
+    font-size: 56px;
+    color: #5C4033;
+    font-weight: bold;
 }
 
 .buttons {
