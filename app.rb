@@ -1,5 +1,8 @@
 require "sinatra"
 
+set :port, ENV.fetch("port, 4567")
+set :bind, "0.0.0.0"
+
 get "/" do
   erb :index
 end
